@@ -5,5 +5,5 @@
 * install development packages using `sudo pacman -S base-devel`
 
 ## Compile and Run
-* compile using `gcc -Wall -Wextra -o main main.c $(pkg-config gtk+-3.0 --cflags --libs) -export-dynamic -w `
+* compile by running the script file `sh run.sh`
 * run using `./main`
